@@ -16,7 +16,7 @@ function DotPattern({ className = '' }) {
 
 function Fondo() {
   return (
-    <div className="relative min-h-screen overflow-hidden bg-[#f6efe3]">
+    <div className="absolute inset-0 overflow-hidden bg-[#f6efe3]">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_22%_45%,#eab593_0%,#efcfb5_27%,#f2e6c6_58%,#f6efe3_100%)]" />
 
       <div className="absolute inset-y-[-20%] left-[18%] w-[14%] -rotate-[17deg] bg-white/14 blur-[1px]" />
@@ -35,12 +35,6 @@ function Fondo() {
 
       <DotPattern className="absolute left-[73%] top-[9%]" />
       <DotPattern className="absolute left-[63%] top-[36%]" />
-
-      <div className="relative z-10 flex min-h-screen items-end justify-start p-8 md:p-16">
-        <h1 className="text-2xl font-semibold tracking-wide text-white/80 md:text-4xl">
-          Prueba Landing Page
-        </h1>
-      </div>
     </div>
   )
 }
