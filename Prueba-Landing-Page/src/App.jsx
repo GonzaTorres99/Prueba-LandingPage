@@ -1,16 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import Fondo from './components/Fondo'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-     <h1>Prueba Landing Page</h1>
-     <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-    </>
+    <main className="relative min-h-screen">
+      <Fondo />
+    </main>
   )
 }
 
